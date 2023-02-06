@@ -4,7 +4,7 @@
 
       <header>
         <router-link to="/">
-          <h1><span>Movie</span>Discovery</h1>
+          <h1><span>Movie</span>Information</h1>
         </router-link>
       </header>
       <router-link to="/">
@@ -108,6 +108,9 @@ export default {
     padding: 10px 0;
     z-index: 10;
     margin-left: 16px;
+  }
+  button {
+    cursor: pointer;
   }
   
   header h1 {
