@@ -119,10 +119,18 @@ export default {
     background: #000000;
     padding: 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   header h1 span {
-    letter-spacing: 5px;
+    padding: 10px;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    margin-right: 10px;
+    border-radius: 10px;
   }
   
 
@@ -198,6 +206,7 @@ export default {
     font-size: 17px;
     text-transform: uppercase;
     transition: 0.4s;
+    cursor: pointer;
   }
   .movies_list {
     display: flex;
